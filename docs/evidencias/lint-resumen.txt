@@ -1,0 +1,37 @@
+lintDebug: BUILD SUCCESSFUL; 0 errores, 18 advertencias.
+1 Warning, RedundantLabel
+7 Warning, GradleDependency
+1 Warning, PluralsCandidate
+1 Warning, ObsoleteSdkInt
+8 Warning, UnusedResources
+
+REVISION DE CIERRE - 27 de octubre de 2026
+
+Se revisaron los 18 avisos del XML original y sus ubicaciones en el proyecto.
+No se modificaron codigo, recursos ni dependencias: ninguno exige una correccion
+para el catalogo actual de nueve perros y el APK ya probado en API 24.
+Los avisos se conservan visibles, sin suprimirlos ni presentarlos como corregidos.
+
+RedundantLabel (1): la actividad repite @string/app_name, igual que application.
+Ambas etiquetas resuelven a Woof; no hay nombre incorrecto para la entrega.
+
+GradleDependency (7): sugerencias de versiones mas recientes de BOM (app y
+pruebas), Activity, Core, Lifecycle, JUnit AndroidX y runner. Este diagnostico
+no identifica por si mismo una vulnerabilidad. Se conserva la combinacion
+compilada y probada; una migracion de versiones requeriria otras verificaciones.
+
+PluralsCandidate (1): years_old contiene %d años. Los nueve perros tienen
+edades de 2 a 16 años; el plural es correcto para todos los datos actuales.
+Si se agrega un perro de 1 año, convertir el texto a plurals y verificarlo.
+
+ObsoleteSdkInt (1): drawable-v24 es redundante respecto a minSdk 24, pero la
+seleccion del vector es valida. Se conserva el recurso original para evitar
+cambiar el icono del lanzador en este cierre.
+
+UnusedResources (8): purple_200, purple_500, purple_700, teal_200, teal_700,
+black, white y padding_medium son recursos de plantilla sin uso detectado.
+No contienen credenciales ni dependencias externas; su limpieza es opcional
+y no justifica modificar los recursos del APK ya aprobado.
+
+Esta es una revision del informe existente; no se volvio a ejecutar lint ni
+las 3 pruebas unitarias y 5 de interfaz porque el codigo permanece identico.

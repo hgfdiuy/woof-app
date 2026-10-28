@@ -1,0 +1,6 @@
+Comando ejecutado: gradlew.bat --console=plain :app:testDebugUnitTest :app:assembleDebug :app:assembleDebugAndroidTest :app:lintDebug
+
+> Task :app:lintDebug
+
+BUILD SUCCESSFUL in 1m 16s
+74 actionable tasks: 11 executed, 63 up-to-date

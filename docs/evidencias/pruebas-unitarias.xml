@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.woof.data.DogsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-28T02:55:00" time="0.059">
+  <properties />
+  <testcase name="names_are_unique_and_ages_are_nonnegative" classname="com.example.woof.data.DogsTest" time="0.057" />
+  <testcase name="catalog_has_nine_dogs" classname="com.example.woof.data.DogsTest" time="0.0" />
+  <testcase name="each_dog_has_image_and_hobby_resource" classname="com.example.woof.data.DogsTest" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+Archivo: app-debug.apk
+Bytes: 15702160
+SHA256: 057915BE4E93FA5A4A0C07B28691478EC817588878DE3F9A7DD02217B774803A
+Firma: apksigner verify --verbose, codigo de salida 0
+package: name='com.example.woof' versionCode='1' versionName='1.0' platformBuildVersionName='15' platformBuildVersionCode='35' compileSdkVersion='35' compileSdkVersionCodename='15'
+sdkVersion:'24'
+targetSdkVersion:'35'
+application-label:'Woof'
+native-code: 'arm64-v8a' 'armeabi-v7a' 'x86' 'x86_64'

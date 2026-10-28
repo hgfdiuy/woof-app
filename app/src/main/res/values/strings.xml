@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Woof</string>
+    <string name="dog_name_1">Koda</string>
+    <string name="dog_name_2">Lola</string>
+    <string name="dog_name_3">Frankie</string>
+    <string name="dog_name_4">Nox</string>
+    <string name="dog_name_5">Faye</string>
+    <string name="dog_name_6">Bella</string>
+    <string name="dog_name_7">Moana</string>
+    <string name="dog_name_8">Tzeitel</string>
+    <string name="dog_name_9">Leroy</string>
+    <string name="dog_description_1">Comer premios en la terraza</string>
+    <string name="dog_description_2">Ladrarle a su dueño</string>
+    <string name="dog_description_3">Robar calcetines</string>
+    <string name="dog_description_4">Conocer otros animales</string>
+    <string name="dog_description_5">Cavar en el jardín</string>
+    <string name="dog_description_6">Perseguir la espuma del mar</string>
+    <string name="dog_description_7">Jugar con su familia</string>
+    <string name="dog_description_8">Tomar el sol</string>
+    <string name="dog_description_9">Dormir en lugares curiosos</string>
+    <string name="about">Actividad favorita:</string>
+    <string name="years_old">%d años</string>
+    <string name="expand_button_content_description">Mostrar actividad favorita de %1$s</string>
+    <string name="collapse_button_content_description">Ocultar actividad favorita de %1$s</string>
+</resources>
