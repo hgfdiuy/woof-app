@@ -19,13 +19,13 @@ Documentación adicional: PENDIENTE
 
 El usuario proporcionó estos datos oficiales y la cuenta GitHub hgfdiuy, y confirmó el correo Git que debe usarse en los commits de esta entrega. Aplicar la identidad solo al proyecto/comando, sin cambiar la configuración global. No reutilizar información de otros proyectos. El mensaje inicial solicitado es: feat: entrega final de Woof-App con pruebas y documentación.
 
-El destino solicitado es un repositorio público woof-app en hgfdiuy, si no existe otro apropiado. GitHub CLI se verificó autenticado como hgfdiuy; el conector de GitHub pertenece a otra cuenta y no se utilizará para publicar. El usuario indicó dejar Drive únicamente como carpeta local y no subir a la cuenta conectada. Consultar el estado actualizado en evidencias/VERIFICACION.md antes de ejecutar acciones pendientes; completar enlaces solo después de verificarlos.
+El destino es el repositorio público https://github.com/hgfdiuy/woof-app, creado con GitHub CLI autenticado como hgfdiuy porque no existía uno previo; el conector de GitHub pertenece a otra cuenta y no se utilizó para publicar. El usuario indicó dejar Drive únicamente como carpeta local y no subir a la cuenta conectada. Consultar el estado actualizado en evidencias/VERIFICACION.md antes de ejecutar acciones pendientes; completar enlaces solo después de verificarlos.
 
 ## Primer commit y continuidad
 
-El repositorio local está en main con 75 archivos de fuentes. El estado del commit y remoto se registra en evidencias/VERIFICACION.md. El borrador del mensaje está en .git/WOOF_PRIMER_COMMIT.txt, excluido del ZIP por ser metadata local. No ejecutar otro primer commit si ya se creó el solicitado.
+El repositorio está en main con 75 archivos de fuentes. El primer commit (cf48554) ya se creó con la identidad autorizada y se publicó en origin/main; los commits posteriores son solo documentales. El estado del commit y remoto se registra en evidencias/VERIFICACION.md. No ejecutar otro primer commit.
 
-Solo después de confirmar la identidad del propietario y revisar los datos definitivos, desde la raíz del proyecto:
+Procedimiento usado para el primer commit, conservado como referencia para reproducirlo en otra copia:
 
 ```powershell
 git status --short
@@ -43,13 +43,13 @@ if ($LASTEXITCODE -ne 0) { throw 'Corregir la revision del indice antes del comm
 git -c user.name="$autorWoof" -c user.email="$correoWoof" commit -m "feat: entrega final de Woof-App con pruebas y documentación"
 ```
 
-La identidad se aplica a ese comando, sin cambiar la configuración global. El nombre oficial está confirmado; el correo debe ser autorizado expresamente. Para usar el ZIP de fuentes en otra computadora, descomprimirlo y ejecutar git init -b main dentro de Woof/ antes de preparar el primer commit: el ZIP no incluye .git/.
+La identidad se aplica a ese comando, sin cambiar la configuración global. El nombre oficial y el correo Git fueron confirmados expresamente por el usuario. Para usar el ZIP de fuentes en otra computadora, descomprimirlo y ejecutar git init -b main dentro de Woof/ antes de preparar el primer commit: el ZIP no incluye .git/.
 
 Excluir local.properties, .gradle/, .kotlin/, build/, .verification/, entrega/, APK, claves, .env y registros temporales. Conservar el JAR y scripts del Gradle Wrapper, necesarios para compilar, junto con las fuentes, pruebas, imágenes y licencias.
 
 ## GitHub — ejecutar únicamente con autorización
 
-En hgfdiuy, crear woof-app público y vacío solo después de verificar la cuenta activa con gh api user --jq .login y comprobar que no existe un destino apropiado. No inicializarlo con otro README, licencia o .gitignore. No insertar tokens en URLs ni archivos. Procedimiento basado en la [guía oficial de GitHub](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github).
+Ya ejecutado: origin apunta a https://github.com/hgfdiuy/woof-app y main está publicado. El procedimiento queda como referencia. En hgfdiuy, crear woof-app público y vacío solo después de verificar la cuenta activa con gh api user --jq .login y comprobar que no existe un destino apropiado. No inicializarlo con otro README, licencia o .gitignore. No insertar tokens en URLs ni archivos. Procedimiento basado en la [guía oficial de GitHub](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github).
 
 Después del primer commit y de comprobar el destino real:
 
@@ -117,4 +117,4 @@ Descargar el APK y comprobar que su SHA-256 coincide con apk-integridad.txt. Rev
 
 ## Cierre académico pendiente
 
-El correo Git fue autorizado y el repositorio público se creó en https://github.com/hgfdiuy/woof-app. Consultar el registro de verificación para confirmar commit y publicación. Falta subir desde una cuenta Drive autorizada y completar su enlace después de comprobar lectura y descarga. Los marcadores PENDIENTE son deliberados y no constituyen una entrega académica cerrada. Tras cualquier cambio documental, sincronizar ZIP, copias, inventario, hashes y la carpeta lista para Drive; nunca copiarla recursivamente dentro de sí misma.
+El correo Git fue autorizado y el repositorio público se creó en https://github.com/hgfdiuy/woof-app. El primer commit se publicó en main; se comprobó acceso público sin iniciar sesión y coincidencia del SHA local y remoto (ver registro de verificación). Falta subir desde una cuenta Drive autorizada y completar su enlace después de comprobar lectura y descarga. Los marcadores PENDIENTE son deliberados y no constituyen una entrega académica cerrada. Tras cualquier cambio documental, sincronizar ZIP, copias, inventario, hashes y la carpeta lista para Drive; nunca copiarla recursivamente dentro de sí misma.

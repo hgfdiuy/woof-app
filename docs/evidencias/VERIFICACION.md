@@ -92,3 +92,11 @@ GitHub CLI existe y gh api user --jq .login devolvió hgfdiuy. El conector de Gi
 Se revisaron los campos de autoría de las fuentes y documentación: identifican a Isabela en la entrega; se conservan The Android Open Source Project, licencias y atribuciones legítimas. No se copiaron datos de proyectos vecinos. Los 75 archivos fuente se vuelven a empaquetar y contrastar por SHA-256; se excluyen compilados, local.properties, cachés, claves, metadatos Git y la carpeta entrega/. El escaneo por patrones de secretos no encontró coincidencias; no es una garantía absoluta.
 
 La carpeta entrega/Woof-App - Isabela Haydee Gonzalez - Entrega/ queda lista para subida manual con APK, ZIP, Documentacion.txt, README, licencias, inventario, hashes, informe técnico, guía y evidencias. Tiene su propio SHA256SUMS.txt; el manifiesto de entrega/ cubre únicamente el paquete de su nivel y docs/, sin duplicar esta copia. Los enlaces siguen sin poder comprobarse hasta contar con los destinos reales.
+
+## Publicación en GitHub — 27 de octubre de 2026
+
+El usuario autorizó el correo Git rporrasd@miumg.edu.gt para los commits de esta entrega; la identidad se aplicó por comando, sin modificar la configuración global. Con gh api user --jq .login devolviendo hgfdiuy y sin remoto previo, se creó el repositorio público vacío hgfdiuy/woof-app y se publicó main con el primer commit cf485540dfe7460861f666b87593ebbeaebaef9d (autor Isabela Haydee González Gonsale, 75 archivos). Se comprobó que HEAD local coincidía con main remoto y que https://github.com/hgfdiuy/woof-app responde HTTP 200 sin iniciar sesión. documentacion.txt registra esa URL.
+
+Un commit posterior, solo documental, actualiza README, resumen técnico, guía, AGENTS.md y este registro con el estado de publicación. No cambia código Android, recursos, dependencias ni el APK; por eso no se repitieron compilación ni suites. El ZIP de fuentes, el inventario y los hashes se regeneran con esos documentos y se contrastan con el commit publicado.
+
+Drive: por indicación del usuario no se subió nada a la cuenta conectada. La carpeta local queda lista para subida manual y "Documentación adicional" sigue PENDIENTE hasta tener un enlace autorizado y comprobado.

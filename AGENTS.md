@@ -60,6 +60,14 @@
 - APK con firma v2 válida, mismo SHA-256 y tamaño documentados; Android sin cambios. No se repitieron compilación ni suites. Mantener evidencias de API 24 y del intento fallido API 36.
 - Enlaces de GitHub y Drive continúan PENDIENTE; no afirmar publicación ni accesibilidad hasta comprobarlas. Sin cambios en los proyectos Java vecinos.
 
+## Publicación GitHub — 27 de octubre de 2026
+
+- Correo Git autorizado por el usuario para esta entrega: rporrasd@miumg.edu.gt, con nombre Isabela Haydee González Gonsale. Aplicarlo por comando (git -c user.name=... -c user.email=...), sin tocar la configuración global.
+- Repositorio público creado: https://github.com/hgfdiuy/woof-app. Primer commit cf485540dfe7460861f666b87593ebbeaebaef9d publicado en main; HEAD local = remoto y HTTP 200 sin sesión comprobados.
+- Commit posterior solo documental con el estado de publicación; código Android y APK sin cambios, suites no repetidas.
+- Drive sigue solo local por indicación del usuario; "Documentación adicional" PENDIENTE. No subir a la cuenta conectada.
+- Regenerar ZIP, inventario, hashes y carpeta Drive con .verification/cierre-final/empaquetar.ps1 tras cambios documentales confirmados en un commit.
+
 ## Continuidad después del cierre
 
 Leer README.md y docs/evidencias/VERIFICACION.md antes de continuar. Después de cambios de código ejecutar las verificaciones afectadas, actualizar evidencias y regenerar entrega/. .gradle/, .kotlin/, build/, local.properties, .verification/ (incluye AVD locales), entrega/, registros y claves están excluidos de Git. No incluir estos archivos locales en el ZIP de fuentes. Actualizar este archivo con fecha, resultados y bloqueos al terminar cada sesión.

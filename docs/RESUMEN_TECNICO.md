@@ -40,4 +40,4 @@ Resultado de esta sesión: 3 unitarias y 5 instrumentadas aprobadas en Android 7
 - [Compatibilidad de Android Gradle Plugin 8.8](https://developer.android.com/build/releases/agp-8-8-0-release-notes): Build Tools 35.0.0 y API máxima 35.
 - LICENSE y ASSETS_LICENSE.txt del proyecto original.
 
-Estudiante: Isabela Haydee González Gonsale. Carnet: 0908-25-22418. Cuenta GitHub indicada: hgfdiuy. Enlaces reales en documentacion.txt, pendientes hasta su verificación. Este documento no asigna a la estudiante la autoría del material original de Android.
+Estudiante: Isabela Haydee González Gonsale. Carnet: 0908-25-22418. Repositorio público verificado: https://github.com/hgfdiuy/woof-app. Drive sigue PENDIENTE; enlaces en documentacion.txt. Este documento no asigna a la estudiante la autoría del material original de Android.

@@ -2,7 +2,7 @@
 
 Aplicación académica de Kotlin y Jetpack Compose basada en Woof de Android Basics with Compose. Conserva los nueve perros, fotografías y nombres originales.
 
-Entrega académica de **Isabela Haydee González Gonsale**, carnet **0908-25-22418**. Cuenta GitHub indicada: **hgfdiuy**. Se conservan las atribuciones originales; estos datos identifican a la estudiante responsable de la entrega.
+Entrega académica de **Isabela Haydee González Gonsale**, carnet **0908-25-22418**. Repositorio público: **https://github.com/hgfdiuy/woof-app**. Se conservan las atribuciones originales; estos datos identifican a la estudiante responsable de la entrega.
 
 ## Funcionalidades
 
@@ -43,9 +43,9 @@ Las capturas existentes en docs/evidencias deben corresponder a ejecuciones real
 
 [Guía](docs/GUIA_ENTREGA.md), [resumen técnico](docs/RESUMEN_TECNICO.md) y [pruebas manuales](docs/PRUEBAS_MANUALES.md).
 
-documentacion.txt contiene los datos oficiales de Isabela; los enlaces de GitHub y Drive se completarán tras publicar y comprobar los destinos autorizados. La carpeta local entrega/ contiene el paquete y la carpeta lista para subir a Drive; está excluida de Git. Consulte el estado de publicación actualizado en docs/evidencias/VERIFICACION.md.
+documentacion.txt contiene los datos oficiales de Isabela y el repositorio público verificado: https://github.com/hgfdiuy/woof-app. El enlace Drive sigue PENDIENTE. La carpeta local entrega/ contiene el paquete y la carpeta lista para subir a Drive; está excluida de Git. Consulte el estado de publicación actualizado en docs/evidencias/VERIFICACION.md.
 
-Paquete preparado localmente: entrega/Woof-debug.apk, entrega/Woof-fuentes.zip, documentación/evidencias y entrega/SHA256SUMS.txt. Git local en main, sin commits ni remoto; archivos preparados para el primer commit con identidad autorizada.
+Paquete preparado localmente: entrega/Woof-debug.apk, entrega/Woof-fuentes.zip, documentación/evidencias y entrega/SHA256SUMS.txt. Git en main, con primer commit publicado bajo identidad autorizada y remoto origin en hgfdiuy/woof-app. No subir archivos a la cuenta Drive conectada: el usuario solicitó conservar la entrega local para subida manual.
 
 ## Licencias
 
